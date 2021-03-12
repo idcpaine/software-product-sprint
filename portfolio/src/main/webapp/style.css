@@ -49,12 +49,12 @@ nav ul li a{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
-h1{
+#cols h1{
     font-size: 89px;
     display: inline;
     align-items: center;
 }
-h2{
+#cols h2{
     color: black;
     margin-top: 15px;
 }
@@ -94,24 +94,18 @@ button:hover{
 }
 #box{
     flex:1;
-    flex-basis: 30%;
     font-family: 'Roboto', sans-serif;
-    width: 250px;
-    height: 200px;
-    border-radius: 8px;
+    width: auto;
+    height: auto;
     padding: 50px;
     display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 #box1{
-    /* these two lines were able to center the two projects */
-    flex: 1;
-    margin-left: 125px;
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    padding-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 #box1 img{
     border-radius: 8px;
@@ -119,13 +113,26 @@ button:hover{
     display: flex;
 }
 #box2{
-    float: right;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
 }
 #box2 img{
     border-radius: 8px;
     width: 410px;
     display: flex;
+}
+#box1 p{
+    width: 410px;
+}
+#box2 p{
+    width: 410px;
+}
+#box1 h1{
+    text-align: center;
+    width: 410px;
+}
+#box2 h1{
+    text-align: center;
+    width: 410px;
 }
 
