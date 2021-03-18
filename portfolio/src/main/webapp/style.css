@@ -135,4 +135,65 @@ button:hover{
     text-align: center;
     width: 410px;
 }
+#formcontainer{
+    background-color:#99ccff;
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: 50%;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: auto;
+    /* align-items: center; */
+}
+/* form{
+    flex-basis: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+} */
+form p{
+    font-size: 60px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    flex-basis: 50%;
+    font-weight: bold;
+}
+form textarea{
+    /* display: flex; */
+    /* flex-basis: 50%; */
+    font-family: 'Roboto', sans-serif;
+    /* align-content: center; */
+    width:550px;
+    /* margin-left: 470px; */
+    /* flex-basis: 50%; */
+
+}
+form input{
+    flex-basis: 50%;
+    background-color:white;
+    /* make color of button change once hovered over  */
+    transition-duration: 0.4s;  
+    border-radius: 8px;
+    width: 150px;
+    padding: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid white;
+    margin-top: 30px;
+    /* margin-left: 650px; */
+    margin-bottom: 50px;
+}
+form input:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: #ffffff;
+}
+
+/* #form text-input{
+    font-family: 'Roboto', sans-serif;
+} */
 
